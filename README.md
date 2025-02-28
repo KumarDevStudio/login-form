@@ -1,12 +1,56 @@
-# React + Vite
+# Login Form React Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple login form built with **React**. The form includes an email and password field, along with a background video, remember me checkbox, password visibility toggle, and links for forgotten password and registration.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Background Video**: Custom background video for a dynamic user experience.
+- **Email Validation**: Basic validation to ensure a valid email format is entered.
+- **Password Visibility Toggle**: Allows users to show or hide their password.
+- **Remember Me**: Checkboxes for the "Remember me" option to keep the user logged in.
+- **Links**: Includes links to "Forgot password" and "Sign Up" for users who do not have an account.
 
-## Expanding the ESLint configuration
+## Demo
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+You can view the live demo of this login form at [Your Demo Link Here].
+
+## Technologies Used
+
+- **React**: JavaScript library for building user interfaces.
+- **CSS**: Styling for the form and layout.
+- **React Router**: For navigation between the login and signup pages.
+
+## Getting Started
+
+Follow these steps to get your local copy of the project up and running:
+
+### Prerequisites
+
+Make sure you have **Node.js** installed on your system. You can download it from [Node.js Official Website](https://nodejs.org/).
+
+### Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/login-form.git
+    ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd login-form
+    ```
+
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+4. Run the development server:
+    ```bash
+    npm start
+    ```
+
+This will start the app at `http://localhost:3000/` where you can see the login form in action.
+
+## File Structure
+
