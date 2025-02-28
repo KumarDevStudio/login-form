@@ -1,0 +1,22 @@
+.toggle-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.toggle-link button {
+  background-color: #271930;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-size: 16px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.toggle-link button:hover {
+  color: #000000;
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #ffffff;
+}
